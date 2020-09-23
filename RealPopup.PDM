@@ -1,0 +1,99 @@
+[Root]
+Most Recent Package=Popukiller Setup
+
+
+[Package|Popukiller Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Datensicherung\Toolwork\Eigene Projekte\Neues PopupProjekt\Setup
+
+[Package|Popukiller Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Popukiller Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Popukiller Setup|Files Found]
+
+[Package|Popukiller Setup|Files Released]
+
+[Package|Popukiller Setup|Missing Dependency Information]
+
+[Package|Popukiller Setup|Out-of-Date Dependency Information]
+
+[Package|Popukiller Setup|Files Added]
+
+[Package|Popukiller Setup|Files Removed]
+
+[Package|Popukiller Setup|Files In Project]
+C:\Datensicherung\Toolwork\Eigene Projekte\Neues PopupProjekt\Exe\Real Popup Killer.exe=Yes
+E:\WINNT\system32\MSVBVM60.dll=Yes
+C:\Programme2000\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Programme2000\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Programme2000\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Programme2000\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Programme2000\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+E:\WINNT\system32\VB6DE.DLL=Yes
+C:\Programme2000\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Programme2000\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+E:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Programme2000\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Popukiller Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Popukiller Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Popukiller Setup|Install Locations]
+C:\Datensicherung\Toolwork\Eigene Projekte\Neues PopupProjekt\Exe\Real Popup Killer.exe=$(AppPath)
+E:\WINNT\system32\MSVBVM60.dll=$(WinSysPathSysFile)
+C:\Programme2000\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Programme2000\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Programme2000\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Programme2000\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Programme2000\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\VB6DE.DLL=$(WinSysPath)
+C:\Programme2000\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Programme2000\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Programme2000\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Popukiller Setup|Configure Shared Files]
+Applicable=Yes
+C:\Datensicherung\Toolwork\Eigene Projekte\Neues PopupProjekt\Exe\Real Popup Killer.exe=No
+
+[Package|Popukiller Setup|Distribution]
+Type=single
+Size=
+Title=Real Popup Killer © by Toolwork Development (Martina Kröger) 2001
+
+[Package|Popukiller Setup|IconGroups]
+Group0=Real Popup Killer
+PrivateGroup0=-1
+Parent0=$(Programs)
+Group1=Autostart
+PrivateGroup1=0
+Parent1=$(Programs)
+
+[Package|Popukiller Setup|Real Popup Killer]
+Icon1="Real Popup Killer.exe"
+Title1=Real Popup Killer
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Popukiller Setup|Autostart]
+Icon1="Real Popup Killer.exe"
+Title1=Real Popup Killer
+StartIn1=$(AppPath)
+Key1=Icon5
+
+[Package|Popukiller Setup|Package]
+PackageFolder=C:\Datensicherung\Toolwork\Eigene Projekte\Neues PopupProjekt\Setup
+ProjectFolder=C:\Datensicherung\Toolwork\Eigene Projekte\Neues PopupProjekt
+ServerSideCab=
+File1=C:\Datensicherung\Toolwork\Eigene Projekte\Neues PopupProjekt\Setup\setup.exe
+File2=C:\Datensicherung\Toolwork\Eigene Projekte\Neues PopupProjekt\Setup\Setup.Lst
+File3=C:\Datensicherung\Toolwork\Eigene Projekte\Neues PopupProjekt\Setup\Real Popup Killer.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
